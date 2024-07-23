@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 25,
+    "passes": 27,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-07-20T15:32:12.799Z",
-    "end": "2024-07-20T15:32:13.132Z",
-    "duration": 333
+    "failures": 0,
+    "start": "2024-07-23T14:22:56.865Z",
+    "end": "2024-07-23T14:22:57.236Z",
+    "duration": 371
   },
   "tests": [
     {
@@ -118,7 +118,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js myFilter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -146,17 +146,9 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 1 ] to equal 1",
-        "showDiff": true,
-        "actual": [
-          1
-        ],
-        "expected": 1,
-        "stack": "AssertionError: expected [ 1 ] to equal 1\n    at Context.<anonymous> (test/indexTest.js:161:35)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
@@ -170,15 +162,7 @@
       "fullTitle": "index.js myLast returns the last element of the collection",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 4 ] to equal 4",
-        "showDiff": true,
-        "actual": [
-          4
-        ],
-        "expected": 4,
-        "stack": "AssertionError: expected [ 4 ] to equal 4\n    at Context.<anonymous> (test/indexTest.js:173:34)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
@@ -217,38 +201,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "returns the first element of the collection",
-      "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 1 ] to equal 1",
-        "showDiff": true,
-        "actual": [
-          1
-        ],
-        "expected": 1,
-        "stack": "AssertionError: expected [ 1 ] to equal 1\n    at Context.<anonymous> (test/indexTest.js:161:35)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "returns the last element of the collection",
-      "fullTitle": "index.js myLast returns the last element of the collection",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 4 ] to equal 4",
-        "showDiff": true,
-        "actual": [
-          4
-        ],
-        "expected": 4,
-        "stack": "AssertionError: expected [ 4 ] to equal 4\n    at Context.<anonymous> (test/indexTest.js:173:34)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "calls alert with each element passed",
@@ -358,7 +311,7 @@
     {
       "title": "correctly filters for values that the callback evaluates as true",
       "fullTitle": "index.js myFilter correctly filters for values that the callback evaluates as true",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -384,8 +337,22 @@
       "err": {}
     },
     {
+      "title": "returns the first element of the collection",
+      "fullTitle": "index.js myFirst returns the first element of the collection",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last element of the collection",
+      "fullTitle": "index.js myLast returns the last element of the collection",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
